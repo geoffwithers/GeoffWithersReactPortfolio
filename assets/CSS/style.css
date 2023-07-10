@@ -1,0 +1,307 @@
+
+/*Should I have used @media to make a responsive layout? 
+@media screen (max-width: ;){
+}
+    ?*/
+/*all i've done to affect responsive layout is apply flex-wrap:wrap to everything*/
+
+.header {
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #153442;
+    color: #ffffff;
+   
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 36px;
+    margin-left: 12px;
+}
+
+.header nav {
+    padding-right: 4%;
+    margin-top: 12px;
+    margin-right: 12px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+    color: white;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    color: white;
+}
+
+.banner {
+    background-color: lightblue;
+    display: flex;
+}
+
+.banner p {
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-left: 25%;
+}
+
+#geoff-pic {
+    margin: 15px;
+    scale: 100%;
+}
+
+
+.about-me {
+    background-color: lightgray;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+}
+
+
+
+.about-me h2 {
+    width: 10%;
+    border-right: 5px solid black;
+    text-align: right;
+    padding-right: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    Font-size: xx-large;
+}
+
+.about-me p {
+   width: 70%;
+   padding-left: 1%;
+}
+
+
+
+
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: lightblue;
+}
+
+
+
+.work h2 {
+    width: 10%;
+    border-right: 5px solid black;
+    text-align: right;
+    padding-right: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    Font-size: xx-large;
+}
+
+.boxes {
+    max-height: 200px;
+    margin: 2%;
+}
+
+.images {
+    border-radius: 20px;
+    border: 5px solid black;
+    position: relative;
+    width: 100%;   
+}
+
+/* .work div {
+    width: 70%;
+    padding-left: 1%;
+} */
+
+.projects {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    width: 70%;
+    padding-left: 1%;   
+}
+
+.projects a {
+    width: 48%;
+}
+
+/* .projects a {
+    width: 45%;
+}
+/* #project-2 {
+    width: 45%;
+} */
+
+/*Not sure how to get the project 1 refactoring image to be taller*/
+/*Also want the background-color behind the title to be less wide*/
+
+.project-1 {
+    width: 98% !important;
+    position: relative;
+    
+    
+
+}
+
+.project-1-img {
+    border-radius: 20px;
+    width: 100%;
+    position: relative;
+    border: 5px solid black;
+}
+
+.project-2 {
+    /* width: 35%; */
+    position: relative;
+
+}
+
+.project-2-img {
+    border-radius: 20px;
+    /* width: 35%; */
+    position: relative;
+    border: 5px solid black;
+}
+
+
+
+/* .moreProjects {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    width: 70%;
+    padding-left: 1%;
+
+} */
+
+/* .moreProjects img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+} */
+/* .project-2-img {
+    border-radius: 20px;
+    position: relative; 
+    border: 5px solid black;
+} 
+
+.project-3 {
+    position: relative;
+    width: 90%;
+    
+}
+
+.project-3-img {
+    border-radius: 20px;
+    position: relative; 
+    border: 5px solid black;
+    width: 45%;
+
+} 
+
+.project-4 {
+    position: relative;
+    width: 90%;
+}
+
+.project-4-img {
+    border-radius: 20px;
+    position: relative; 
+    border: 5px solid black;
+    width: 45%;
+}
+
+.project-5 {
+    position: relative;
+    width: 90%;
+    
+}
+
+.project-5-img {
+    border-radius: 20px;
+    position: relative; 
+    border: 5px solid black;
+    width: 45%;
+} */
+
+
+
+.text-overlay {
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 1%;
+    margin-top: 1%;
+    background-color:  #153442;
+    color: white;
+    padding: .5%;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+
+.text-overlay-2 {
+    position: absolute;
+    background-color:  #153442;
+    color: white;
+    top: 10%;
+    left: 5%;
+    padding: .5%;
+    border-radius: 5px;
+    font-weight: bold;
+    
+
+} 
+
+
+
+
+
+.contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1%;
+    background-color: lightgray;
+}
+
+.contact-me h2 {
+    width: 10%;
+    border-right: 5px solid black;
+    text-align: right;
+    padding-right: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    Font-size: xx-large;
+}
+.contact-me ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+    padding-left: 1%;
+}
+
+.contact-me ul li {
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: row; 
+    font-size: larger;
+}
+
